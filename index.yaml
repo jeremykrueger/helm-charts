@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   java-app:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-02-22T22:43:45.29022+01:00"
+    appVersion: latest
+    created: "2020-02-23T00:28:43.354063+01:00"
     description: helm-chart for Java applications
-    digest: 84d26334063c8ae4b7bf669cc5bb8c45ba31c1f68f6b1b612618e58a2a687ed9
+    digest: 9c105856ceefb8a54fc6cf97343ead4c8e5329b2e0f63b1f0e4cd5634d47abf8
     name: java-app
     type: application
     urls:
-    - java-app-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-02-22T22:43:45.28866+01:00"
+    - .deploy/java-app-0.1.1.tgz
+    version: 0.1.1
+generated: "2020-02-23T00:28:43.353361+01:00"
