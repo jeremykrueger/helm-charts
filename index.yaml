@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   java-app:
   - apiVersion: v2
+    created: "2020-03-05T15:11:33.360855+01:00"
+    description: helm-chart for Java applications
+    digest: d467e1cd218be2aeb945e7ca1577cb6769395dda09ad79ac1d3d3c470ae786ad
+    name: java-app
+    urls:
+    - https://github.com/jeremykrueger/helm-charts/releases/download/java-app-0.1.7/java-app-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
     created: "2020-03-05T14:55:43.587928+01:00"
     description: helm-chart for Java applications
     digest: 10fd3d82ea2c770ad088130cced4c079b7448d4249aeab43118d4f41cdd84683
