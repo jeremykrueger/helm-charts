@@ -32,7 +32,7 @@ spec:
               containerPort: 5000
               protocol: TCP
             - name: actuator
-              containerPort: 5000
+              containerPort: 8080
               protocol: TCP
           livenessProbe:
             httpGet:
