@@ -1,0 +1,9 @@
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: "{{ include "java-app.fullname" . }}-mapping"
+  namespace: {{ .Release.Namespace }}
+spec:
+  host: {{ .Values.app.host }}
+  prefix: {{ .Values.app.prefix }}
+  service: "{{ include "java-app.fullname" . }}:{{ .Values.service.port }}"

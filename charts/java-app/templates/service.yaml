@@ -4,8 +4,6 @@ metadata:
   name: {{ include "java-app.fullname" . }}
   labels:
     {{- include "java-app.labels" . | nindent 4 }}
-  annotations:
-    getambassador.io/config: {{ .Values.app.ambassador.config }}
 spec:
   type: {{ .Values.service.type }}
   ports:
